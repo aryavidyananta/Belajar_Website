@@ -1,0 +1,16 @@
+TYPE=VIEW
+query=select `dbsql1_2215091079`.`siswa`.`Nama_Siswa` AS `Nama_Siswa`,`dbsql1_2215091079`.`siswa`.`Kelas` AS `Kelas`,`dbsql1_2215091079`.`guru`.`Nama` AS `Nama`,`dbsql1_2215091079`.`mata_pelajaran`.`Nama_Mapel` AS `Nama_Mapel` from `dbsql1_2215091079`.`siswa` join `dbsql1_2215091079`.`guru` join `dbsql1_2215091079`.`mata_pelajaran` order by `dbsql1_2215091079`.`siswa`.`Nama_Siswa`
+md5=d044fb911cc7637950825d895262e548
+updatable=1
+algorithm=0
+definer_user=root
+definer_host=localhost
+suid=2
+with_check_option=0
+timestamp=2023-10-27 04:22:40
+create-version=2
+source=SELECT Nama_Siswa, Kelas, Nama, Nama_Mapel\nFROM siswa, guru, Mata_pelajaran\nORDER BY nama_Siswa
+client_cs_name=cp850
+connection_cl_name=cp850_general_ci
+view_body_utf8=select `dbsql1_2215091079`.`siswa`.`Nama_Siswa` AS `Nama_Siswa`,`dbsql1_2215091079`.`siswa`.`Kelas` AS `Kelas`,`dbsql1_2215091079`.`guru`.`Nama` AS `Nama`,`dbsql1_2215091079`.`mata_pelajaran`.`Nama_Mapel` AS `Nama_Mapel` from `dbsql1_2215091079`.`siswa` join `dbsql1_2215091079`.`guru` join `dbsql1_2215091079`.`mata_pelajaran` order by `dbsql1_2215091079`.`siswa`.`Nama_Siswa`
+mariadb-version=100424

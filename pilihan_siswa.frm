@@ -1,0 +1,16 @@
+TYPE=VIEW
+query=select `dbsql1_2215091079`.`siswa`.`Nama_Siswa` AS `Nama_Siswa`,`dbsql1_2215091079`.`siswa`.`Kelas` AS `Kelas`,`dbsql1_2215091079`.`siswa`.`Kode_Ruangan` AS `Kode_Ruangan` from `dbsql1_2215091079`.`siswa` order by `dbsql1_2215091079`.`siswa`.`Nama_Siswa`
+md5=419839721da18dd1754a74c6e0b92d5f
+updatable=1
+algorithm=0
+definer_user=root
+definer_host=localhost
+suid=2
+with_check_option=0
+timestamp=2023-10-27 05:21:22
+create-version=2
+source=SELECT Nama_Siswa, Kelas, Kode_Ruangan\nFROM siswa\nORDER BY Nama_siswa
+client_cs_name=cp850
+connection_cl_name=cp850_general_ci
+view_body_utf8=select `dbsql1_2215091079`.`siswa`.`Nama_Siswa` AS `Nama_Siswa`,`dbsql1_2215091079`.`siswa`.`Kelas` AS `Kelas`,`dbsql1_2215091079`.`siswa`.`Kode_Ruangan` AS `Kode_Ruangan` from `dbsql1_2215091079`.`siswa` order by `dbsql1_2215091079`.`siswa`.`Nama_Siswa`
+mariadb-version=100424
